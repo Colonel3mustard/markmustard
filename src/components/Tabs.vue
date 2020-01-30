@@ -1,17 +1,16 @@
 <template>
   <div>
-    <v-app>
-      <v-app-bar 
+    <v-app-bar
       app
       absolute
       color="#6A76AB"
       dark
       shrink-on-scroll
       prominent
-      src="https://picsum.photos/1920/1080?random"
+      src="..\assets\work-stations-plus-espresso.jpg"
       fade-img-on-scroll
       scroll-target="#scrolling-techniques-3"
-      > 
+    >
       <template v-slot:img="{ props }">
         <v-img
           v-bind="props"
@@ -30,27 +29,35 @@
           <v-tab>Skills and Tools</v-tab>
           <v-tab>Experience</v-tab>
           <v-tab>Hobbies and Interests</v-tab>
+          <v-tab-item>
+            <Skills />
+          </v-tab-item>
+          <v-tab-item>
+            <Experience /> 
+            </v-tab-item>
+          <v-tab-item>
+            <Hobbies />
+          </v-tab-item>
         </v-tabs>
       </template>
-      
-      </v-app-bar>
-
-      <v-content>
-        <v-container fluid> 
-
-        </v-container>
-      </v-content>
-
-      <v-footer app> </v-footer>
-    </v-app>
+    </v-app-bar>
   </div>
 </template>
 
 <script>
+import Skills from "@/components/Skills.vue";
+import Experience from "@/components/Experience.vue";
+import Hobbies from "@/components/Hobbies.vue";
+
 export default {
-  props: {},
-  data: () => ({}),
-  created() {}
+  components: {
+    Skills,
+    Experience,
+    Hobbies
+  },
+  data() {
+    return {};
+  }
 };
 </script>
 
