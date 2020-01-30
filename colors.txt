@@ -1,0 +1,5 @@
+#f7f9f3 - white ish
+#5da9bb - light blue
+#eba657 - orange
+#bf5552 - red
+#3c4f5c - Dark Blue

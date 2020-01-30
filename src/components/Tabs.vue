@@ -1,61 +1,57 @@
 <template>
-    
-<v-card color="basil">
-    <v-card-title class="text-center justify-center py-6">
-      <h1 class="font-weight-bold display-3 basil--text">Mark Mustard</h1>
-    </v-card-title>
+  <div>
+    <v-app>
+      <v-app-bar 
+      app
+      absolute
+      color="#6A76AB"
+      dark
+      shrink-on-scroll
+      prominent
+      src="https://picsum.photos/1920/1080?random"
+      fade-img-on-scroll
+      scroll-target="#scrolling-techniques-3"
+      > 
+      <template v-slot:img="{ props }">
+        <v-img
+          v-bind="props"
+          gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
+        ></v-img>
+      </template>
 
-    <v-tabs
-      v-model="tab"
-      background-color="transparent"
-      color="basil"
-      grow
-    >
-      <v-tab
-        v-for="item in items"
-        :key="item"
-      >
-        {{ item }}
-      </v-tab>
-    </v-tabs>
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-    <v-tabs-items v-model="tab">
-      <v-tab-item
-        v-for="item in items"
-        :key="item"
-      >
-        <v-card
-          color="basil"
-          flat
-        >
-          <v-card-text>{{ text }}</v-card-text>
-        </v-card>
-      </v-tab-item>
-    </v-tabs-items>
-  </v-card>
+      <v-toolbar-title>Mark Mustard</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <template v-slot:extension>
+        <v-tabs align-with-title>
+          <v-tab>Skills and Tools</v-tab>
+          <v-tab>Experience</v-tab>
+          <v-tab>Hobbies and Interests</v-tab>
+        </v-tabs>
+      </template>
+      
+      </v-app-bar>
+
+      <v-content>
+        <v-container fluid> 
+
+        </v-container>
+      </v-content>
+
+      <v-footer app> </v-footer>
+    </v-app>
+  </div>
 </template>
 
 <script>
 export default {
-    data () {
-      return {
-        tab: null,
-        items: [
-          'Skills', 'Work Experience', 'Other Experience', 'Hobbies',
-        ],
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      }
-    },
-}
+  props: {},
+  data: () => ({}),
+  created() {}
+};
 </script>
 
-
-<style>
-/* Helper classes */
-.basil {
-  background-color: #FFFBE6 !important;
-}
-.basil--text {
-  color: #356859 !important;
-}
-</style>
+<style></style>
