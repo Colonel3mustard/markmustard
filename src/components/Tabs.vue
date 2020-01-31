@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-container fluid dark class="tabs">
     <v-app-bar
       app
       absolute
@@ -20,15 +20,15 @@
 
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Mark Mustard</v-toolbar-title>
+      <v-toolbar-title id="mark">Mark Mustard</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
       <template v-slot:extension>
         <v-tabs align-with-title>
-          <v-tab>Skills and Tools</v-tab>
-          <v-tab>Experience</v-tab>
-          <v-tab>Hobbies and Interests</v-tab>
+          <v-tab class="tabTitle">Skills</v-tab>
+          <v-tab class="tabTitle">Experience</v-tab>
+          <v-tab class="tabTitle">Hobbies</v-tab>
           <v-tab-item>
             <Skills />
           </v-tab-item>
@@ -41,7 +41,7 @@
         </v-tabs>
       </template>
     </v-app-bar>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -61,4 +61,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway&display=swap');
+
+#mark{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em
+}
+.tabs{
+    font-family: 'Raleway', sans-serif;
+}
+</style>

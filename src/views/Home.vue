@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="home">
     <Tabs />
   </v-app>
 </template>
@@ -14,3 +14,7 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+</style>
