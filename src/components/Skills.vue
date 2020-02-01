@@ -1,6 +1,30 @@
 <template>
   <v-container fluid class="page">
-    <v-card class="card">
+    <v-row>
+      <v-col>
+      <v-card >
+      <v-card-title>Summary</v-card-title>
+      <v-card-subtitle>About me</v-card-subtitle>
+      <v-card-text>
+        As a Software Developer with a background in Management and Sales,
+         I am constantly driven by a passion for mastering new things. 
+         I have taught myself everything from guitar, 
+         to advanced Microsoft Excel to track employee efficiency 
+         in my former job. Coming from that background in sales 
+         and warehouse environments, 
+         I was drawn to programming 
+         as there is always something new to learn. 
+         After graduating from Tech Elevator in August, 
+         I will be on the lookout for a company 
+         that will constantly provide me with new challenges 
+         so I can continue to develop my skills.
+         </v-card-text>
+      </v-card>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+    <v-card>
       <v-card-title>Skills</v-card-title>
       <v-card-subtitle>Languages and Frameworks</v-card-subtitle>
       <v-list>
@@ -32,7 +56,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item href="https://https://docs.microsoft.com/en-us/dotnet/csharp/" target="blank">
+        <v-list-item href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="blank">
           <v-list-item-avatar tile>
             <v-img src="@/assets/csharp.png"></v-img>
           </v-list-item-avatar>
@@ -50,7 +74,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item href="https://https://www.w3schools.com/sql/sql_intro.asp" target="blank">
+        <v-list-item href="https://www.w3schools.com/sql/sql_intro.asp" target="blank">
           <v-list-item-avatar tile>
             <v-img src="@/assets/SQL.png"></v-img>
           </v-list-item-avatar>
@@ -59,7 +83,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item href="https://https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank">
+        <v-list-item href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank">
           <v-list-item-avatar tile>
             <v-img src="@/assets/HTML.png"></v-img>
           </v-list-item-avatar>
@@ -68,7 +92,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item href="https://https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank">
+        <v-list-item href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank">
           <v-list-item-avatar tile>
             <v-img src="@/assets/CSS.png"></v-img>
           </v-list-item-avatar>
@@ -79,7 +103,9 @@
 
       </v-list>
     </v-card>
-    <v-card class="card">
+    </v-col>
+    <v-col>
+    <v-card >
       <v-card-title>Tools</v-card-title>
       <v-card-subtitle>Software</v-card-subtitle>
       <v-list>
@@ -111,6 +137,15 @@
           </v-list-item-content>
         </v-list-item>
 
+        <v-list-item href="https:///apollographql.com/" target="blank">
+          <v-list-item-avatar tile>
+            <v-img src="@/assets/Apollo.png"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Apollo</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
         <v-list-item href="https://Postgresql.org" target="blank">
           <v-list-item-avatar tile>
             <v-img src="@/assets/Postgres.png"></v-img>
@@ -129,7 +164,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item href="https://www.getpostman.com/" target="blank">
+        <v-list-item href="https://getpostman.com/" target="blank">
           <v-list-item-avatar tile>
             <v-img src="@/assets/Postman.png"></v-img>
           </v-list-item-avatar>
@@ -149,7 +184,9 @@
 
       </v-list>
     </v-card>
-    <v-card class="card">
+    </v-col>
+    <v-col>
+    <v-card>
       <v-card-title>Proficiencies</v-card-title>
       <v-card-subtitle>Industry Knowledge</v-card-subtitle>
       <v-list disabled>
@@ -175,10 +212,10 @@
 
         <v-list-item>
           <v-list-item-avatar tile>
-            <v-img src="@/assets/TDD.png"></v-img>
+            <v-img src="@/assets/Mobile.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>Test Driven Development</v-list-item-title>
+            <v-list-item-title>Mobile First Development</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
@@ -193,6 +230,15 @@
 
         <v-list-item>
           <v-list-item-avatar tile>
+            <v-img src="@/assets/TDD.png"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Test Driven Development</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
+        <v-list-item>
+          <v-list-item-avatar tile>
             <v-img src="@/assets/DB.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
@@ -202,6 +248,8 @@
 
       </v-list>
     </v-card>
+    </v-col>
+    </v-row>
   </v-container>
 </template>
 
