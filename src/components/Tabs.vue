@@ -28,7 +28,7 @@
         <v-tabs align-with-title>
           <v-tab class="tabTitle">Skills</v-tab>
           <v-tab class="tabTitle">Experience</v-tab>
-          <v-tab class="tabTitle">Hobbies</v-tab>
+          <v-tab class="tabTitle">Hobbies </v-tab>
           <v-tab-item>
             <Skills />
           </v-tab-item>
@@ -38,7 +38,7 @@
           <v-tab-item>
             <Hobbies />
           </v-tab-item>
-        </v-tabs>
+        </v-tabs> 
       </template>
     </v-app-bar>
   </v-container>
