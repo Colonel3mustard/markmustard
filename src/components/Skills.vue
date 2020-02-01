@@ -34,7 +34,7 @@
 
         <v-list-item>
           <v-list-item-avatar tile>
-            <v-img src></v-img>
+            <v-img src="@/assets/csharp.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>C#/.NET</v-list-item-title>
@@ -43,7 +43,7 @@
 
         <v-list-item>
           <v-list-item-avatar tile>
-            <v-img src></v-img>
+            <v-img src="@/assets/GraphQL.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>GraphQL</v-list-item-title>
@@ -52,7 +52,7 @@
 
         <v-list-item>
           <v-list-item-avatar tile>
-            <v-img src></v-img>
+            <v-img src="@/assets/SQL.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>SQL</v-list-item-title>
@@ -61,7 +61,7 @@
 
         <v-list-item>
           <v-list-item-avatar tile>
-            <v-img src></v-img>
+            <v-img src="@/assets/HTML.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>HTML</v-list-item-title>
@@ -70,7 +70,7 @@
 
         <v-list-item>
           <v-list-item-avatar tile>
-            <v-img src></v-img>
+            <v-img src="@/assets/CSS.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>CSS</v-list-item-title>
@@ -156,34 +156,45 @@
 
         <v-list-item>
           
+          <v-list-item-avatar tile>
+            <v-img src></v-img>
+          </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Web Development</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
         <v-list-item>
-          
+          <v-list-item-avatar tile>
+            <v-img src></v-img>
+          </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Object Oriented Programming (OOP)</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
         <v-list-item>
-          
+          <v-list-item-avatar tile>
+            <v-img src></v-img>
+          </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Test Driven Development</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
         <v-list-item>
-          
+          <v-list-item-avatar tile>
+            <v-img src></v-img>
+          </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Agile Methodologies</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
         <v-list-item>
-          
+          <v-list-item-avatar tile>
+            <v-img src></v-img>
+          </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Database Design</v-list-item-title>
           </v-list-item-content>
@@ -193,6 +204,7 @@
     </v-card>
   </v-container>
 </template>
+
 
 
 <style scoped>
