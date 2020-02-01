@@ -1,61 +1,78 @@
 <template>
-    
-<v-card color="basil">
-    <v-card-title class="text-center justify-center py-6">
-      <h1 class="font-weight-bold display-3 basil--text">Mark Mustard</h1>
-    </v-card-title>
-
-    <v-tabs
-      v-model="tab"
-      background-color="transparent"
-      color="basil"
-      grow
+<div>
+    <v-app-bar
+      app
+      fixed
+      color="rgba(50, 50, 50, 1)"
+      dark
+      shrink-on-scroll
+      prominent
+      src="..\assets\work-stations-plus-espresso.jpg"
+      fade-img-on-scroll
     >
-      <v-tab
-        v-for="item in items"
-        :key="item"
-      >
-        {{ item }}
-      </v-tab>
-    </v-tabs>
+      <template v-slot:img="{ props }">
+        <v-img v-bind="props" gradient="to top right, rgba(50, 50, 50, .7), rgba(50, 50, 50, .7)"></v-img>
+      </template>
 
-    <v-tabs-items v-model="tab">
-      <v-tab-item
-        v-for="item in items"
-        :key="item"
-      >
-        <v-card
-          color="basil"
-          flat
-        >
-          <v-card-text>{{ text }}</v-card-text>
-        </v-card>
+      <v-app-bar-nav-icon v-show="false"></v-app-bar-nav-icon>
+
+      <v-toolbar-title id="mark">Mark Mustard</v-toolbar-title>
+      
+      <v-spacer></v-spacer>
+
+      <template v-slot:extension>
+        <v-tabs align-with-title v-model="tab">
+          <v-tab class="tabTitle">Skills</v-tab>
+          <v-tab class="tabTitle">Experience</v-tab>
+          <v-tab class="tabTitle">Hobbies</v-tab>
+        </v-tabs>
+      </template>
+    </v-app-bar>
+    <v-content >
+    <v-tabs-items v-model="tab" >
+      <v-tab-item>
+        <Skills />
+      </v-tab-item>
+      <v-tab-item>
+        <Experience />
+      </v-tab-item>
+      <v-tab-item>
+        <Hobbies />
       </v-tab-item>
     </v-tabs-items>
-  </v-card>
+    </v-content>
+</div>
 </template>
 
 <script>
+import Skills from "@/components/Skills.vue";
+import Experience from "@/components/Experience.vue";
+import Hobbies from "@/components/Hobbies.vue";
+
 export default {
-    data () {
-      return {
-        tab: null,
-        items: [
-          'Skills', 'Work Experience', 'Other Experience', 'Hobbies',
-        ],
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      }
-    },
-}
+  components: {
+    Skills,
+    Experience,
+    Hobbies
+  },
+  data() {
+    return {
+      tab: null
+    };
+  }
+};
 </script>
 
-
 <style>
-/* Helper classes */
-.basil {
-  background-color: #FFFBE6 !important;
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway&display=swap");
+
+#mark {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
+  padding-bottom: unset;
 }
-.basil--text {
-  color: #356859 !important;
+.tabs {
+  font-family: "Raleway", sans-serif;
 }
+
 </style>
