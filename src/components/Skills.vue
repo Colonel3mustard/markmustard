@@ -14,10 +14,12 @@
          and warehouse environments, 
          I was drawn to programming 
          as there is always something new to learn. 
-         After graduating from Tech Elevator in August, 
-         I will be on the lookout for a company 
-         that will constantly provide me with new challenges 
-         so I can continue to develop my skills.
+         After graduating from Tech Elevator Coding Bootcamp 
+         I joined Ingage Parters, 
+         whom I consult for at GE Aviation
+         in downtown Cincinnati. I currently do a mix of automated QA
+         and Front End Development there, and am excited to move into
+         development full-time in the near future.
          </v-card-text>
       </v-card>
       </v-col>
@@ -27,7 +29,7 @@
     <v-card>
       <v-card-title>Skills</v-card-title>
       <v-card-subtitle>Languages and Frameworks</v-card-subtitle>
-      <v-list>
+      <v-list rounded>
 
         <v-list-item href="https://Javascript.com" target="blank">
           <v-list-item-avatar tile>
@@ -108,7 +110,7 @@
     <v-card >
       <v-card-title>Tools</v-card-title>
       <v-card-subtitle>Software</v-card-subtitle>
-      <v-list>
+      <v-list rounded>
 
         <v-list-item href="https://code.visualstudio.com/" target="blank">
           <v-list-item-avatar tile>
@@ -189,7 +191,7 @@
     <v-card>
       <v-card-title>Proficiencies</v-card-title>
       <v-card-subtitle>Industry Knowledge</v-card-subtitle>
-      <v-list disabled>
+      <v-list disabled rounded>
 
         <v-list-item >
           

@@ -1,7 +1,11 @@
 <template>
-    <v-container fluid>
+  <v-container fluid>
+    <v-row>
+      <v-col>
         <v-card>
-            <v-card-title>Hobbies</v-card-title>
+          <v-card-title>Hobbies</v-card-title>
         </v-card>
-    </v-container>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
