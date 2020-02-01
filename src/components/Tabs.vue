@@ -7,7 +7,7 @@
       dark
       shrink-on-scroll
       prominent
-      src="..\assets\work-stations-plus-espresso.jpg"
+      src="@/assets/WorkStation.jpg"
       fade-img-on-scroll
     >
       <template v-slot:img="{ props }">
