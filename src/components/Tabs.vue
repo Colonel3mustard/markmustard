@@ -17,7 +17,7 @@
       <v-app-bar-nav-icon v-show="false"></v-app-bar-nav-icon>
 
       <v-toolbar-title id="mark">Mark Mustard</v-toolbar-title>
-
+      
       <v-spacer></v-spacer>
 
       <template v-slot:extension>
@@ -74,4 +74,5 @@ export default {
 .tabs {
   font-family: "Raleway", sans-serif;
 }
+
 </style>
