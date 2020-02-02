@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="page">
-    <v-row>
-      <v-col>
+    <v-row fluid>
+      <v-col fluid>
       <v-card >
       <v-card-title>Summary</v-card-title>
       <v-card-subtitle>About me</v-card-subtitle>
@@ -24,8 +24,8 @@
       </v-card>
       </v-col>
     </v-row>
-    <v-row>
-      <v-col>
+    <v-row fluid>
+      <v-col fluid>
     <v-card>
       <v-card-title>Skills</v-card-title>
       <v-card-subtitle>Languages and Frameworks</v-card-subtitle>
@@ -106,7 +106,7 @@
       </v-list>
     </v-card>
     </v-col>
-    <v-col>
+    <v-col fluid>
     <v-card >
       <v-card-title>Tools</v-card-title>
       <v-card-subtitle>Software</v-card-subtitle>
@@ -187,7 +187,7 @@
       </v-list>
     </v-card>
     </v-col>
-    <v-col>
+    <v-col fluic>
     <v-card>
       <v-card-title>Proficiencies</v-card-title>
       <v-card-subtitle>Industry Knowledge</v-card-subtitle>
