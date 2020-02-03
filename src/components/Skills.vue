@@ -15,10 +15,10 @@
          I was drawn to programming 
          as there is always something new to learn. 
          After graduating from Tech Elevator Coding Bootcamp 
-         I joined Ingage Parters, 
+         in August of 2019 I joined Ingage Parters, 
          whom I consult for at GE Aviation
          in downtown Cincinnati. I currently do a mix of automated QA
-         and Front End Development there, and am excited to move into
+         and Front End Development there, and I'm excited to move into
          development full-time in the near future.
          </v-card-text>
       </v-card>
@@ -132,7 +132,7 @@
 
         <v-list-item href="https://Prisma.io" target="blank">
           <v-list-item-avatar tile>
-            <v-img src="@/assets/Prisma.png"></v-img>
+            <v-img src="@/assets/PrismaGreen.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Prisma</v-list-item-title>
