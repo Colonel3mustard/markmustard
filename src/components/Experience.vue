@@ -1,7 +1,7 @@
 <template>
-  <v-container fluid>
+  <div class="page">
     <v-row fluid>
-      <v-col fluid>
+      <v-col class="col" fluid>
         <v-card>
           <v-card-title>Experience</v-card-title>
         </v-card>
@@ -14,7 +14,15 @@
         </v-card>
       </v-col>
     </v-row>
-  </v-container>
+  </div>
 </template>
 
 
+<style scoped>
+.col {
+background-color: black
+}
+.page {
+  background-color: black
+}
+</style>

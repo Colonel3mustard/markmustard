@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="page">
     <v-app-bar
       app
       fixed
@@ -74,5 +74,7 @@ export default {
 .tabs {
   font-family: "Raleway", sans-serif;
 }
-
+.page {
+  background-color: black
+}
 </style>
