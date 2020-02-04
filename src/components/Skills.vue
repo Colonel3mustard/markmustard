@@ -1,7 +1,7 @@
 <template>
-  <v-container fluid class="page">
+  <div class="page">
     <v-row fluid>
-      <v-col fluid>
+      <v-col class="col" fluid>
       <v-card >
       <v-card-title>Summary</v-card-title>
       <v-card-subtitle>About me</v-card-subtitle>
@@ -15,17 +15,17 @@
          I was drawn to programming 
          as there is always something new to learn. 
          After graduating from Tech Elevator Coding Bootcamp 
-         I joined Ingage Parters, 
+         in August of 2019 I joined Ingage Parters, 
          whom I consult for at GE Aviation
          in downtown Cincinnati. I currently do a mix of automated QA
-         and Front End Development there, and am excited to move into
+         and Front End Development there, and I'm excited to move into
          development full-time in the near future.
          </v-card-text>
       </v-card>
       </v-col>
     </v-row>
     <v-row fluid>
-      <v-col fluid>
+      <v-col class="col" fluid>
     <v-card>
       <v-card-title>Skills</v-card-title>
       <v-card-subtitle>Languages and Frameworks</v-card-subtitle>
@@ -106,7 +106,7 @@
       </v-list>
     </v-card>
     </v-col>
-    <v-col fluid>
+    <v-col class="col" fluid>
     <v-card >
       <v-card-title>Tools</v-card-title>
       <v-card-subtitle>Software</v-card-subtitle>
@@ -132,7 +132,7 @@
 
         <v-list-item href="https://Prisma.io" target="blank">
           <v-list-item-avatar tile>
-            <v-img src="@/assets/Prisma.png"></v-img>
+            <v-img src="@/assets/PrismaGreen.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Prisma</v-list-item-title>
@@ -187,7 +187,7 @@
       </v-list>
     </v-card>
     </v-col>
-    <v-col fluic>
+    <v-col class="col" fluic>
     <v-card>
       <v-card-title>Proficiencies</v-card-title>
       <v-card-subtitle>Industry Knowledge</v-card-subtitle>
@@ -252,7 +252,7 @@
     </v-card>
     </v-col>
     </v-row>
-  </v-container>
+  </div>
 </template>
 
 
@@ -263,5 +263,11 @@
 }
 .card {
   margin-bottom: 2%;
+}
+.col {
+background-color: black
+}
+.page {
+  background-color: black
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="page">
     <v-app-bar
       app
       fixed
@@ -11,7 +11,7 @@
       fade-img-on-scroll
     >
       <template v-slot:img="{ props }">
-        <v-img v-bind="props" gradient="to top right, rgba(50, 50, 50, .7), rgba(50, 50, 50, .7)"></v-img>
+        <v-img v-bind="props" gradient="to top right, rgba(50, 50, 50, .8), rgba(50, 50, 50, .8)"></v-img>
       </template>
 
       <v-app-bar-nav-icon v-show="false"></v-app-bar-nav-icon>
@@ -74,5 +74,7 @@ export default {
 .tabs {
   font-family: "Raleway", sans-serif;
 }
-
+.page {
+  background-color: black
+}
 </style>
