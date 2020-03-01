@@ -1,47 +1,47 @@
 <template>
-  <div>
+<div class="page">
     <v-app-bar
       app
-      absolute
-      color="#6A76AB"
+      fixed
+      color="rgba(50, 50, 50, 1)"
       dark
       shrink-on-scroll
       prominent
-      src="..\assets\work-stations-plus-espresso.jpg"
+      src="@/assets/WorkStation.jpg"
       fade-img-on-scroll
-      scroll-target="#scrolling-techniques-3"
     >
       <template v-slot:img="{ props }">
-        <v-img
-          v-bind="props"
-          gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
-        ></v-img>
+        <v-img v-bind="props" gradient="to top right, rgba(50, 50, 50, .8), rgba(50, 50, 50, .8)"></v-img>
       </template>
 
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon v-show="false"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Mark Mustard</v-toolbar-title>
-
+      <v-toolbar-title id="mark">Mark Mustard</v-toolbar-title>
+      
       <v-spacer></v-spacer>
 
       <template v-slot:extension>
-        <v-tabs align-with-title>
-          <v-tab>Skills and Tools</v-tab>
-          <v-tab>Experience</v-tab>
-          <v-tab>Hobbies and Interests</v-tab>
-          <v-tab-item>
-            <Skills />
-          </v-tab-item>
-          <v-tab-item>
-            <Experience /> 
-            </v-tab-item>
-          <v-tab-item>
-            <Hobbies />
-          </v-tab-item>
+        <v-tabs align-with-title v-model="tab">
+          <v-tab class="tabTitle">Skills</v-tab>
+          <v-tab class="tabTitle">Experience</v-tab>
+          <v-tab class="tabTitle">Hobbies</v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
-  </div>
+    <v-content >
+    <v-tabs-items v-model="tab" >
+      <v-tab-item>
+        <Skills />
+      </v-tab-item>
+      <v-tab-item>
+        <Experience />
+      </v-tab-item>
+      <v-tab-item>
+        <Hobbies />
+      </v-tab-item>
+    </v-tabs-items>
+    </v-content>
+</div>
 </template>
 
 <script>
@@ -56,9 +56,25 @@ export default {
     Hobbies
   },
   data() {
-    return {};
+    return {
+      tab: null
+    };
   }
 };
 </script>
 
-<style></style>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway&display=swap");
+
+#mark {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
+  padding-bottom: unset;
+}
+.tabs {
+  font-family: "Raleway", sans-serif;
+}
+.page {
+  background-color: black
+}
+</style>
