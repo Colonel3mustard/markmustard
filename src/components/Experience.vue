@@ -11,7 +11,7 @@
                 <v-img src="@/assets/ingage.png"></v-img>
               </v-list-item-avatar>
               <v-list-item-content>
-                <v-list-item-title>Apprentice Developer - Ingage Partners</v-list-item-title>
+                <v-list-item-title>Apprentice Developer</v-list-item-title>
                 <v-list-item-subtitle>August 2019 - Present</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
@@ -21,7 +21,7 @@
                 <v-img src="@/assets/TQL.png"></v-img>
               </v-list-item-avatar>
               <v-list-item-content>
-                <v-list-item-title>Logistics Account Executive - Total Quality Logistics</v-list-item-title>
+                <v-list-item-title>Logistics Account Executive</v-list-item-title>
                 <v-list-item-subtitle>April 2018 - February 2019</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
@@ -31,7 +31,7 @@
                 <v-img src="@/assets/TSC.png"></v-img>
               </v-list-item-avatar>
               <v-list-item-content>
-                <v-list-item-title>Pick, Pack, and Ship Supervisor - TSC Apparel</v-list-item-title>
+                <v-list-item-title>Pick, Pack, and Ship Supervisor</v-list-item-title>
                 <v-list-item-subtitle>June 2014 - April 2018</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
@@ -63,9 +63,9 @@
 
 <style scoped>
 .col {
-  background-color: black;
+  background-color: rgb(20,20,20);
 }
 .page {
-  background-color: black;
+  background-color: rgb(20,20,20);
 }
 </style>
