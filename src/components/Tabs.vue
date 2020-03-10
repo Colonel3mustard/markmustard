@@ -7,7 +7,7 @@
       dark
       shrink-on-scroll
       prominent
-      src="@/assets/WorkStation.jpg"
+      src="@/assets/MacVSCode.jpg"
       fade-img-on-scroll
     >
       <template v-slot:img="{ props }">

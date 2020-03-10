@@ -10,15 +10,13 @@
          I am constantly driven by a passion for mastering new things. 
          I have taught myself everything from guitar, 
          to advanced Microsoft Excel to track employee efficiency 
-         in my former job. Coming from that background in sales 
-         and warehouse environments, 
-         I was drawn to programming 
+         in my former job. Ready for more of a long term career, I was drawn to programming 
          as there is always something new to learn. 
          After graduating from Tech Elevator Coding Bootcamp 
          in August of 2019 I joined Ingage Parters, 
          whom I consult for at GE Aviation
-         in downtown Cincinnati. I currently do a mix of automated QA
-         and Front End Development there, and I'm excited to move into
+         in downtown Cincinnati. I currently do a mix of Automated QA
+         and Development there, and I'm excited to move into
          development full-time in the near future.
          </v-card-text>
       </v-card>
