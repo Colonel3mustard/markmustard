@@ -7,7 +7,7 @@
       dark
       shrink-on-scroll
       prominent
-      src="@/assets/WorkStation.jpg"
+      src="@/assets/MacVSCode.jpg"
       fade-img-on-scroll
     >
       <template v-slot:img="{ props }">
@@ -24,7 +24,6 @@
         <v-tabs align-with-title v-model="tab">
           <v-tab class="tabTitle">Skills</v-tab>
           <v-tab class="tabTitle">Experience</v-tab>
-          <v-tab class="tabTitle">Hobbies</v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
@@ -65,9 +64,10 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
 
 #mark {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Sen", sans-serif;
   font-size: 1.5em;
   padding-bottom: unset;
 }
@@ -75,6 +75,7 @@ export default {
   font-family: "Raleway", sans-serif;
 }
 .page {
-  background-color: black
+  background-color: rgb(20,20,20)
+
 }
 </style>
