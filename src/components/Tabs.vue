@@ -24,7 +24,6 @@
         <v-tabs align-with-title v-model="tab">
           <v-tab class="tabTitle">Skills</v-tab>
           <v-tab class="tabTitle">Experience</v-tab>
-          <v-tab class="tabTitle">Hobbies</v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
