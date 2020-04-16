@@ -37,6 +37,7 @@
             </v-list-item>
 
           </v-list>
+
         </v-card>
       </v-col>
       <v-col class="col" fluid>
@@ -79,11 +80,13 @@
   </div>
 </template>
 
+
 <style scoped>
 .col {
   background-color: rgb(20,20,20);
 }
 .page {
   background-color: rgb(20,20,20);
+
 }
 </style>

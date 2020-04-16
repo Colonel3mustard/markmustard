@@ -16,5 +16,6 @@ background-color: rgb(20,20,20)
 }
 .page {
   background-color: rgb(20,20,20)
+
 }
 </style>
