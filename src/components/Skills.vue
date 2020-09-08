@@ -14,11 +14,11 @@
          as there is always something new to learn. 
          After graduating from Tech Elevator Coding Bootcamp 
          in August of 2019 I joined Ingage Parters, 
-         whom I consult for at GE Aviation
-         in downtown Cincinnati. I currently do a mix of Automated QA
-         and Development there, and I'm excited to move into
-         development full-time in the near future.
-         </v-card-text>
+         whom I consulted for at GE Aviation
+         in downtown Cincinnati until joining London Computer Systems in June of 2020. 
+         I currently work with a mix of Angular and C#.
+      </v-card-text>
+
       </v-card>
       </v-col>
     </v-row>
@@ -31,10 +31,19 @@
 
         <v-list-item href="https://Javascript.com" target="blank">
           <v-list-item-avatar tile>
-            <v-img src="@/assets/js.png"></v-img>
+            <v-img src="@/assets/javascript.png"></v-img>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Javascript</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
+        <v-list-item href="https://typescriptlang.org/" target="blank">
+          <v-list-item-avatar tile>
+            <v-img src="@/assets/ts.png"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>TypeScript</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
@@ -44,6 +53,15 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Vue.js ( Vuetify + Vuex )</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
+        <v-list-item href="https://Angular.io" target="blank">
+          <v-list-item-avatar tile>
+            <v-img src="@/assets/angular.png"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Angular</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
@@ -152,6 +170,15 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Postgres</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
+        <v-list-item href="https://heidisql.com/" target="blank">
+          <v-list-item-avatar tile>
+            <v-img src="@/assets/heidi.png"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>HeidiSQL</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
