@@ -8,11 +8,21 @@
 
             <v-list-item>
               <v-list-item-avatar tile>
+                <v-img src="@/assets/LCS.png"></v-img>
+              </v-list-item-avatar>
+              <v-list-item-content>
+                <v-list-item-title>Software Developer</v-list-item-title>
+                <v-list-item-subtitle>June 2020 - Present</v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item>
+              <v-list-item-avatar tile>
                 <v-img src="@/assets/ingage.png"></v-img>
               </v-list-item-avatar>
               <v-list-item-content>
                 <v-list-item-title>Apprentice Developer</v-list-item-title>
-                <v-list-item-subtitle>August 2019 - Present</v-list-item-subtitle>
+                <v-list-item-subtitle>August 2019 - June 2020</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
 
