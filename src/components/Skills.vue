@@ -146,6 +146,15 @@
           </v-list-item-content>
         </v-list-item>
 
+        <v-list-item href="https://www.atlassian.com/software/jira" target="blank">
+          <v-list-item-avatar tile>
+            <v-img src="@/assets/jira.png"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Jira</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
         <v-list-item href="https://Prisma.io" target="blank">
           <v-list-item-avatar tile>
             <v-img src="@/assets/PrismaGreen.png"></v-img>
