@@ -18,6 +18,7 @@
          in downtown Cincinnati until joining London Computer Systems in June of 2020. 
          I currently work with a mix of Angular and C#.
       </v-card-text>
+
       </v-card>
       </v-col>
     </v-row>

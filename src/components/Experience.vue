@@ -18,6 +18,7 @@
 
             <v-list-item>
               <v-list-item-avatar tile>
+
                 <v-img src="@/assets/ingage.png"></v-img>
               </v-list-item-avatar>
               <v-list-item-content>
@@ -50,6 +51,7 @@
 
         </v-card>
       </v-col>
+      
       <v-col class="col" fluid>
         <v-card>
           <v-card-title>Volunteer Experience</v-card-title>
@@ -68,6 +70,7 @@
           </v-list>
         </v-card>
       </v-col>
+
       <v-col fluid class="col">
         <v-card>
           <v-card-title>Education</v-card-title>
