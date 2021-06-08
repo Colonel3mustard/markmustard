@@ -3,6 +3,7 @@
     <v-row fluid>
       <v-col class="col" fluid>
       <v-card >
+
       <v-card-title>Summary</v-card-title>
       <v-card-subtitle>About me</v-card-subtitle>
       <v-card-text>
@@ -47,15 +48,6 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Javascript</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item href="https://typescriptlang.org/" target="blank">
-          <v-list-item-avatar tile>
-            <v-img src="@/assets/ts.png"></v-img>
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title>TypeScript</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
@@ -164,15 +156,6 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Postgres</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item href="https://heidisql.com/" target="blank">
-          <v-list-item-avatar tile>
-            <v-img src="@/assets/heidi.png"></v-img>
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title>HeidiSQL</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
