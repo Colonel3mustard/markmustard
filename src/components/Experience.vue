@@ -62,7 +62,7 @@
                 <v-img src="@/assets/givecamp.png"></v-img>
               </v-list-item-avatar>
               <v-list-item-content>
-                <v-list-item-title>Volunteer Developer</v-list-item-title>
+                <v-list-item-title>Lead Front End Developer</v-list-item-title>
                 <v-list-item-subtitle>October 2019</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
