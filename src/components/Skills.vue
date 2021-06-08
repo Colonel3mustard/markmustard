@@ -50,6 +50,15 @@
           </v-list-item-content>
         </v-list-item>
 
+        <v-list-item href="https://typescriptlang.org/" target="blank">
+          <v-list-item-avatar tile>
+            <v-img src="@/assets/ts.png"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>TypeScript</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
         <v-list-item href="https://Vuejs.org" target="blank">
           <v-list-item-avatar tile>
             <v-img src="@/assets/logo.png"></v-img>
@@ -155,6 +164,15 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>Postgres</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+
+        <v-list-item href="https://heidisql.com/" target="blank">
+          <v-list-item-avatar tile>
+            <v-img src="@/assets/heidi.png"></v-img>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>HeidiSQL</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
 
