@@ -5,6 +5,16 @@
         <v-card>
           <v-card-title>Experience</v-card-title>
           <v-list>
+          
+           <v-list-item>
+              <v-list-item-avatar tile>
+                <v-img src="@/assets/GE.jfif"></v-img>
+              </v-list-item-avatar>
+              <v-list-item-content>
+                <v-list-item-title>Contract Software Developer</v-list-item-title>
+                <v-list-item-subtitle>August 2021 - Present</v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
 
             <v-list-item>
               <v-list-item-avatar tile>
@@ -12,13 +22,12 @@
               </v-list-item-avatar>
               <v-list-item-content>
                 <v-list-item-title>Software Developer</v-list-item-title>
-                <v-list-item-subtitle>June 2020 - Present</v-list-item-subtitle>
+                <v-list-item-subtitle>June 2020 - August 2021</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
 
             <v-list-item>
               <v-list-item-avatar tile>
-
                 <v-img src="@/assets/ingage.png"></v-img>
               </v-list-item-avatar>
               <v-list-item-content>
