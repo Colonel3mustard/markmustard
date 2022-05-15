@@ -8,7 +8,7 @@
           
            <v-list-item>
               <v-list-item-avatar tile>
-                <v-img src="@/assets/GE.jfif"></v-img>
+                <v-img src="@/assets/GE.png"></v-img>
               </v-list-item-avatar>
               <v-list-item-content>
                 <v-list-item-title>Contract Software Developer</v-list-item-title>
