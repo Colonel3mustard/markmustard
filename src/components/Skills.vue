@@ -17,10 +17,11 @@
          in August of 2019 I joined Ingage Parters, 
          whom I consulted for at GE Aviation
          in downtown Cincinnati. I worked
-         as a Front End Developer with Vue.ja and Typescript and an SDET while there,
-         until joining London Computer Systems in June of 2020. 
-         I currently work primarily as a Front End Developer with Angular and Typescript, 
-         with a little C# as well.
+         as a Front End Developer with Vue.js and Typescript and as an SDET while at GE.
+         I joined London Computer Systems in June of 2020, where I continued working as a Front End Developer Angular and Typescript, 
+         with a little C# as well. I rejoined GE Aviation in August of 2021, moving to a fully remote role to facilitate a move to Dallas, TX. 
+         I am back to working with Vue.js and Typescript, and I am excited to be back working alongside many of the excellent people I worked with 
+         in my first stint with GE.
       </v-card-text>
 
       </v-card>
